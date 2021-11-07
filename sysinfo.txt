@@ -1,4 +1,4 @@
-prismOS 4.0 build 415
+prismOS 4.0 build 418
 Kernel Version: 2.0
-Revision Number: 50
+Build Revision Number: 2
 Build status: Internal Confidential Build.
