@@ -360,6 +360,28 @@ function Minesweeper(){
 	return new Task($win);
 }
 
+function Calendar(){
+	var $win = new $IframeWindow({
+		src: "programs/calendar/index.html",
+		icon: "minesweeper",
+		title: "Calendar",
+		innerWidth: 500,
+		innerHeight: 410
+	});
+	return new Task($win);
+}
+function Calculator(){
+	var $win = new $IframeWindow({
+		src: "programs/calc/index.html",
+		icon: "calc",
+		title: "Calculator",
+		innerWidth: 450,
+		innerHeight: 410
+	});
+	return new Task($win);
+}
+
+
 function SoundRecorder(file_path){
 	// TODO: DRY the default file names and title code (use document.title of the page in the iframe, in $IframeWindow)
 	var document_title = file_path ? file_name_from_path(file_path) : "Sound";
@@ -878,11 +900,25 @@ add_icon_not_via_filesystem({
 	open: Notepad,
 	shortcut: true
 });
+
+add_icon_not_via_filesystem({
+	title: "Calendar",
+	icon: "",
+	open: Calendar,
+	shortcut: true
+});
+add_icon_not_via_filesystem({
+	title: "Calculator",
+	icon: "calc",
+	open: Calculator,
+	shortcut: true
+});
 add_icon_not_via_filesystem({
 	title: "Winamp",
 	icon: "winamp2",
 	open: openWinamp,
 	shortcut: true
 });
+
 
 $folder_view.arrange_icons();
