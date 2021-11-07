@@ -363,7 +363,7 @@ function Minesweeper(){
 function Calendar(){
 	var $win = new $IframeWindow({
 		src: "programs/calendar/index.html",
-		icon: "minesweeper",
+		icon: "cal",
 		title: "Calendar",
 		innerWidth: 500,
 		innerHeight: 410
@@ -903,7 +903,7 @@ add_icon_not_via_filesystem({
 
 add_icon_not_via_filesystem({
 	title: "Calendar",
-	icon: "",
+	icon: "cal",
 	open: Calendar,
 	shortcut: true
 });
