@@ -4,3 +4,5 @@ on the consumer.
 
 the name metaos is only to mark it as new and improved and shiny, consumers don't know what awaits them.
 when we release prismOS 4.0 this is gonna be hit. a massive one. just you wait.
+
+we are nearing development ending. project started back in august and now we are finishing it.
