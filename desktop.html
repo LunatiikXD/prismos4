@@ -24,30 +24,35 @@
 		<link rel="prefetch" href="/programs/notepad/index.html">
 	</head>
 	<body>
+     
 		<div class="desktop" style="background-image: url(images/Wallpaper2.jpg); background-size: cover; background-position: center;"></div>
 		<div class="taskbar">
-			<button class="start-button toggle" title="Click here to begin.">
-				<img src="images/start.png"/><b></b>
-			</button>
+	<!--<button class="start-button toggle" title="Click here to begin.">
+				<img src="https://cdn.glitch.me/266cc21c-6b0d-4c04-ba5c-e5bca49cf0c2%2FWebp.net-resizeimage.png?v=1635550352504"/><b></b>
+			</button> -->
 			<div class="taskbar-divider"></div>
-			<!-- TODO: pinned apps and resizing handles -->
+			<!-- TODO: pinned apps and resizing handles-->
 			<div class="tasks"></div>
-			<div class="taskbar-divider"></div>
 			<div class="tray inset-shallow">
 				<div class="tray-icons">
-					<img class="tray-icon" src="images/icons/task-scheduler-16x16.png" title="Task Scheduler is not ready." onclick="alert('Good day to you!')">
-					<img class="tray-icon" src="images/icons/audio-okay-16x16.png" title="Volume" onclick="alert('Have a good day!')">
+          <a href=''><img class="tray-icon" src="images/icons/task-scheduler-16x16.png" title="Task Scheduler is not ready." onclick="alert('Good day to you!')"></a>
+					<a href=''><img class="tray-icon" src="images/icons/audio-okay-16x16.png" title="Volume" onclick="alert('Have a good day!')"></a>
+          <a href='startup.html'><img class="tray-icon" src="/images/icons/shutdown-16x16.png" title="Shut the computer down."></a> 
+          <a href='lockscreen.html'><img class="tray-icon" src="/images/icons/logoff-16x16.png" title="Signs off the user."></a> 
 				</div>
-				<div class="taskbar-time"></div>
+        <div class="taskbar-time"</div>
 			</div>
-		</div>
+		</div> 
 		<div class="start-menu outset-deep" hidden style="display: none;">
 			<div class="start-menu-titlebar"></div>
 			<div class="start-menu-content">
-				<h1>Start</h1>
+        <h1>Power Options</h1>
         <a href="lockscreen.html">Lock</a><br>
         <a href="index.html">Shutdown</a>
 			</div>
+		</div>
+    
+			
 		</div>
 		<script src="lib/pep.js"></script>
 		<script src="lib/jquery.min.js"></script>
@@ -96,5 +101,15 @@
 				</filter>
 			</defs>
 		</svg>
+     <div class="sidebar">				
+        <h1>
+         <!--<iframe width="200" height="200" src="programs/sidebar/clock.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+         <iframe width="130" height="75" src="programs/clock/index.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe width="200" height="200" src="programs/notepad/index.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe width="200" height="200" src="programs/calendar/sidebar.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        </h1>
+       </div>
 	</body>
 </html>

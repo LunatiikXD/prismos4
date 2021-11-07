@@ -1,36 +1,106 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="refresh" content="7;url=lockscreen.html" />
+   <head>
+     
+  <title>prismOS</title>      
+     	
+   </head>
+ 
 
-    <title>Startup</title>
-    <style>
-      body {
-        background-color: black;
-      }
-      .windows {
-  position: absolute;
-  top: 25%;
-  width: 99%;
-  text-align: center;
-  font-size: 18px;
-}
-      .spinning {
-  position: absolute;
-  top: 75%;
-  width: 99%;
-  text-align: center;
-  font-size: 18px;
-}
-    </style>
-  </head>
+   <style>
   
-  <body>
-      <div class="windows">
-        <img src="images/logo/sys_logo.png" width="550px" alt="Windows" />
-    </div>
-        <div class="spinning">
-        <img src="images/loading.gif" width="150px" alt="Windows" />
-    </div>
 
-  </body>
+  
+body {
+  background-image: url('images/lockbg.jpg'); no-repeat center center fixed
+    background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+
+
+     }
+
+   
+   
+
+
+
+h1 {
+  color: white;
+              font-family: helvetica;
+
+}
+
+p {
+  color: white;
+              font-family: helvetica;
+
+}
+    
+   .center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+#bottom { 
+ position: absolute;
+  top: 50%;
+  width: 100%;              
+                bottom:0;                          
+                left:0;
+   
+ 
+            }
+     #top { 
+                position: absolute;
+  top: 50%;
+  width: 100%;              
+                bottom:0;                          
+                top:0;
+         width: 100%;
+
+ 
+            }
+    #right { 
+                 position: absolute;
+  top: 50%;
+  width: 100%;                 
+                bottom:0;                          
+                right:0;  
+      
+
+            }
+#time {
+text-align: center;
+width: 99%;
+}
+
+  </style>
+  
+ <h1>
+   prismOS</a><br><br>We just released <strong>MetaOS</strong>.<br>
+  Working on the new codebase for prismOS 4.0.<br>
+  </h1>
+
+ <script>
+    document.body.addEventListener("keydown", function (event) {
+    if (event.keyCode === 68) {
+        window.location.replace("startup.html");
+    }
+});
+       </script>
+ <script>
+    document.body.addEventListener("keydown", function (event) {
+    if (event.keyCode === 82) {
+        window.location.replace("dev.txt");
+    }
+});
+       </script>
+ <iframe width= "1024" height="760" src="/startup.html"><br><br><br><br>
+   
+
 </html>

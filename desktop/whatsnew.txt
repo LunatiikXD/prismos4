@@ -1,1 +1,3 @@
-build 130 - changed OS logo system-wide, wallpaper changed to represent prismOS, phasing out start button in next build.
+build 410 - added Sidebar alongside Sidebar Apps. 
+build 415 - added Notepad and Clock as Sidebar apps. Calender and calculator have been added as well to the OS, and signing out from tray has been implemented
+build 430 - added Calendar Icon, build 450 will be developer preview.
