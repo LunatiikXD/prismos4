@@ -1,7 +1,7 @@
 
-# ![](images/start.png) HTMLdows
+# ![](images/start.png) prismOS
 
-Windows remade in HTML
+HTML operating system.
 
 Includes:
 * ![](images/icons/notepad-16x16.png) Notepad ([separate README](programs/notepad/README.md))

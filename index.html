@@ -12,13 +12,11 @@
 
   
 body {
-  background-image: url('images/lockbg.jpg'); no-repeat center center fixed
-    background-repeat: no-repeat;
+  background-image: url('images/lockbg.jpg'); no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 100%;
 
 
      }
@@ -82,24 +80,26 @@ width: 99%;
   </style>
   
  <h1>
-   prismOS</a><br><br>We just released <strong>MetaOS</strong>.<br>
-  Working on the new codebase for prismOS 4.0.<br>
+   prismOS</a><br><br>Press F to start the OS in full screen mode<br>
+  
+  <!--We just released <strong>MetaOS</strong>.<br>
+  Working on the new codebase for prismOS 4.0.<br>-->
   </h1>
 
  <script>
     document.body.addEventListener("keydown", function (event) {
-    if (event.keyCode === 68) {
+    if (event.keyCode === 70) {
         window.location.replace("startup.html");
     }
 });
        </script>
- <script>
+ <!--<script>
     document.body.addEventListener("keydown", function (event) {
     if (event.keyCode === 82) {
         window.location.replace("dev.txt");
     }
 });
-       </script>
+       </script>-->
  <iframe width= "1024" height="760" src="/startup.html"><br><br><br><br>
    
 

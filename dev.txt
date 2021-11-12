@@ -6,3 +6,10 @@ the name metaos is only to mark it as new and improved and shiny, consumers don'
 when we release prismOS 4.0 this is gonna be hit. a massive one. just you wait.
 
 we are nearing development ending. project started back in august and now we are finishing it.
+
+consumer preview has been released!
+
+after 60 hours + of work on the OS we have released the OS and as i predicted it, its a wild hit.
+the os is being so much used that glitch.com had to ratelimit the OS page lollll
+
+was worth it.

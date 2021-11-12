@@ -10,17 +10,18 @@
   
 
   
-body {
-  background-image: url('images/lockbg.jpg'); no-repeat center center fixed
-    background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
+#bg {
+   position: fixed;
+   top: 0;
+   left: 0;
+
+   /* Preserve aspet ratio */
+   min - width: 100 % ;
+   min - height: 100 % ;
+}
 
 
-     }
+     
 
    
    
@@ -68,7 +69,8 @@ width: 99%;
 }
 
   </style>
-  
+  <img src="images/lockbg.jpg" id="bg" alt="">
+
 <h1>
     <div id="bottom">Welcome to prismOS. <br>Press enter to login.</div>
 
@@ -76,15 +78,11 @@ width: 99%;
     
   <h1>
     
-  <div id="right">prismOS | build 22Q1</div>
+  <div id="right">prismOS | version 22Q1</div>
 
 
   </h1>
-  <h1>
-    <div id="top">This build of prismOS is confidential.<br>Leaking it could terminate access to it.</div>
-
-  </h1>
-
+ 
 
   
  
