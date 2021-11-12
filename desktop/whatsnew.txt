@@ -1,3 +1,7 @@
 build 410 - added Sidebar alongside Sidebar Apps. 
 build 415 - added Notepad and Clock as Sidebar apps. Calender and calculator have been added as well to the OS, and signing out from tray has been implemented
 build 430 - added Calendar Icon, build 450 will be developer preview.
+build 450 - Developer Preview. build 480 will be Consumer Preview, 490 will be Release Preview, then 500 will be RTC
+build 480 - Consumer Preview. Removed the time on the taskbar.
+build 490 - Release Preview. Releasing the OS in the next hours or so.
+build 500 - Initial Release of prismOS

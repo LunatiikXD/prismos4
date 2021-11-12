@@ -1,4 +1,5 @@
-prismOS 4.0 build 418
+prismOS 4.0 build 500
 Kernel Version: 2.0
-Build Revision Number: 2
-Build status: Internal Confidential Build.
+Build Revision Number: 1
+Build status: RTC
+Full build string: 500.pos4.20.1.rtc
